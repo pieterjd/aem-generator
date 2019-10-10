@@ -1,0 +1,14 @@
+{
+  "name": "generator-aem",
+  "version": "0.1.0",
+  "description": "Generate all things AEM related",
+  "files": [
+    "generators"
+  ],
+  "keywords": [
+    "yeoman-generator"
+  ],
+  "dependencies": {
+    "yeoman-generator": "^4.1.0"
+  }
+}
