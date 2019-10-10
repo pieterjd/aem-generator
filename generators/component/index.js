@@ -9,14 +9,6 @@ module.exports = class GeneratorAem extends Generator {
         this.option('babel'); // This method adds support for a `--babel` flag
     }
 
-    method1() {
-        this.log('method 1 just ran');
-    }
-
-    method2() {
-        this.log('method 2 just ran');
-    }
-
 
 
     async prompting(){
@@ -42,13 +34,13 @@ module.exports = class GeneratorAem extends Generator {
     writing(){
         this.fs.copyTpl(
             this.templatePath('_cq_dialog.xml'),
-            this.destinationPath('_cq_dialog.xml'),
+            this.destinationPath(this.answers.name+'/_cq_dialog.xml'),
             {'componentName': this.answers.name}
         );
 
         this.fs.copyTpl(
             this.templatePath('renderscript.html'),
-            this.destinationPath(this.answers.name+'.html'),
+            this.destinationPath(this.answers.name+'/'+this.answers.name+'.html'),
             {'componentName': this.answers.name}
         );
     }
