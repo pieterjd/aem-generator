@@ -1,8 +1,9 @@
 # yeo-generator
 
-Generators for the AEM reactor
+Generators for the AEM reactor. Goals is to generate code that is compliant with the styleguides and code convention that is agreed on.
 
 Currently it has generators for 
+
 * AEM component
 * Osgi service
 
