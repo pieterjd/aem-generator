@@ -43,6 +43,12 @@ module.exports = class GeneratorAem extends Generator {
             this.destinationPath(this.answers.name+'/'+this.answers.name+'.html'),
             {'componentName': this.answers.name}
         );
+
+        this.fs.copyTpl(
+            this.templatePath('.content.xml'),
+            this.destinationPath(this.answers.name+'/.content.xml'),
+            {'componentName': this.answers.name}
+        );
     }
 };
 
