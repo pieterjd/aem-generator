@@ -5,5 +5,5 @@
           xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
           jcr:primaryType="cq:Component"
           jcr:description="The <%= componentName %> component"
-          sling:resourceType="cq/gui/components/authoring/dialog">
+          <% if (componentGroup) { %>componentGroup="<%= componentGroup %>"><% } %>
 </jcr:root>

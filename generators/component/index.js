@@ -18,14 +18,13 @@ module.exports = class GeneratorAem extends Generator {
                 name: "name",
                 message: "The name of the component",
                 default: this.appname // Default to current folder name
-            }
-            /*,
+            },
             {
-                type: "confirm",
-                name: "cool",
-                message: "Would you like to enable the Cool feature?"
+                type: "input",
+                name: "group",
+                message: "The group the component belongs to",
+                default: "" // Default to current folder name
             }
-            */
         ]);
 
         //this.log("app name", answers.componentName);
@@ -42,6 +41,12 @@ module.exports = class GeneratorAem extends Generator {
             this.templatePath('renderscript.html'),
             this.destinationPath(this.answers.name+'/'+this.answers.name+'.html'),
             {'componentName': this.answers.name}
+        );
+
+        this.fs.copyTpl(
+            this.templatePath('.content.xml'),
+            this.destinationPath(this.answers.name+'/.content.xml'),
+            {'componentName': this.answers.name,'componentGroup': this.answers.group}
         );
     }
 };
