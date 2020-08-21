@@ -62,6 +62,18 @@ module.exports = class GeneratorAem extends Generator {
                 'clientlibName': this.answers.name
             }
         );
+
+        this.fs.copy(
+            this.templatePath('css.txt'),
+            this.destinationPath(this.answers.name+'/css.txt')
+        );
+        this.fs.copyTpl(
+            this.templatePath('css/hello.css'),
+            this.destinationPath(this.answers.name+'/css/hello.css'),
+            {
+                'clientlibName': this.answers.name
+            }
+        );
     }
 };
 
