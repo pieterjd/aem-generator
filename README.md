@@ -6,7 +6,8 @@ Currently it has generators for
 
 * AEM component
 * Aem clientlib
-* Osgi service
+* Log configuration
+* Osgi service - WORK IN PROGRESS
 
 ## Installation
 
