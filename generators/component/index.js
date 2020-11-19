@@ -33,7 +33,7 @@ module.exports = class GeneratorAem extends Generator {
     writing(){
         this.fs.copyTpl(
             this.templatePath('_cq_dialog.xml'),
-            this.destinationPath(this.answers.name+'/_cq_dialog.xml'),
+            this.destinationPath(this.answers.name+'/_cq_dialog/.content.xml'),
             {'componentName': this.answers.name}
         );
 
