@@ -1,0 +1,46 @@
+
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+          jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2016-12-20T17:23:18.308+01:00"
+        cq:lastModifiedBy="admin"
+        cq:template="<%= template %>"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="<%= title %>"
+        sling:resourceType="<%= component %>">
+        <root
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wcm/foundation/components/responsivegrid">
+            <responsivegrid
+                jcr:created="{Date}2016-09-30T14:53:27.174+03:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2016-09-30T14:53:47.128+03:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="wcm/foundation/components/responsivegrid">
+                <title
+                    sling:resourceType="core/wcm/components/title/v2/title"
+                    jcr:primaryType="nt:unstructured"
+                    />
+                <text
+                    sling:resourceType="core/wcm/components/text/v2/text"
+                    jcr:primaryType="nt:unstructured"
+                    textIsRich="true"
+                    text="&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Interdum velit laoreet id donec ultrices tincidunt arcu non. Habitant morbi tristique senectus et netus et. Neque laoreet suspendisse interdum consectetur libero id faucibus nisl. Orci dapibus ultrices in iaculis nunc sed augue lacus viverra. Egestas egestas fringilla phasellus faucibus scelerisque. Faucibus in ornare quam viverra orci sagittis eu. Pharetra convallis posuere morbi leo urna molestie. Vivamus at augue eget arcu dictum varius duis at. Ultrices in iaculis nunc sed augue. Aenean et tortor at risus viverra adipiscing at. Felis donec et odio pellentesque diam volutpat commodo sed. Justo nec ultrices dui sapien eget mi proin sed libero.&lt;/p&gt;
+
+&lt;p&gt;Dui vivamus arcu felis bibendum ut tristique. Arcu vitae elementum curabitur vitae nunc sed velit. Commodo nulla facilisi nullam vehicula ipsum a arcu cursus vitae. Vestibulum morbi blandit cursus risus at ultrices mi. In aliquam sem fringilla ut morbi tincidunt augue interdum velit. Accumsan in nisl nisi scelerisque eu ultrices vitae auctor eu. Enim neque volutpat ac tincidunt vitae semper quis lectus nulla. Dui vivamus arcu felis bibendum. Varius quam quisque id diam vel quam. Faucibus nisl tincidunt eget nullam non nisi est sit amet. Sed risus ultricies tristique nulla aliquet. Sapien eget mi proin sed.&lt;/p&gt;
+
+&lt;p&gt;Tempus urna et pharetra pharetra massa massa ultricies. Ridiculus mus mauris vitae ultricies leo. Purus non enim praesent elementum facilisis leo vel. Luctus accumsan tortor posuere ac ut consequat semper. Est velit egestas dui id ornare arcu odio ut sem. Vel pharetra vel turpis nunc eget lorem dolor. Sed arcu non odio euismod lacinia at quis risus sed. Felis bibendum ut tristique et egestas. Nulla facilisi etiam dignissim diam quis enim. Ultrices eros in cursus turpis massa tincidunt dui. Posuere morbi leo urna molestie. Condimentum vitae sapien pellentesque habitant morbi tristique senectus et. Fusce id velit ut tortor pretium viverra. Nisi est sit amet facilisis.&lt;/p&gt;
+
+&lt;p&gt;Vel eros donec ac odio tempor orci dapibus ultrices. Tempus quam pellentesque nec nam aliquam sem et tortor. Velit aliquet sagittis id consectetur purus. Lacus luctus accumsan tortor posuere ac ut. Quisque sagittis purus sit amet volutpat. Turpis egestas sed tempus urna et pharetra pharetra. Sapien nec sagittis aliquam malesuada bibendum arcu vitae elementum curabitur. Enim tortor at auctor urna nunc id. Turpis egestas integer eget aliquet nibh praesent. Ornare suspendisse sed nisi lacus sed viverra tellus in. Nullam ac tortor vitae purus faucibus. Nisl nisi scelerisque eu ultrices. Lectus quam id leo in vitae turpis massa.&lt;/p&gt;
+
+&lt;p&gt;Non tellus orci ac auctor. Amet consectetur adipiscing elit ut aliquam. Id venenatis a condimentum vitae. Fringilla est ullamcorper eget nulla facilisi etiam. Egestas erat imperdiet sed euismod nisi. Vel eros donec ac odio tempor orci dapibus ultrices. Mi tempus imperdiet nulla malesuada pellentesque elit. Sit amet facilisis magna etiam tempor orci eu lobortis elementum. Viverra tellus in hac habitasse platea dictumst vestibulum rhoncus. Semper auctor neque vitae tempus quam pellentesque. Amet nisl suscipit adipiscing bibendum.&lt;/p&gt;"
+                >
+
+                </text>
+                <cq:responsive jcr:primaryType="nt:unstructured"/>
+            </responsivegrid>
+        </root>
+    </jcr:content>
+</jcr:root>
